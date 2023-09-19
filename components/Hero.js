@@ -1,5 +1,5 @@
 import React from 'react'
-import FeaturedEvent from './FeaturedEvent'
+
 
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
         </div>
       </section>
 
-      
+
     </>
   )
 }

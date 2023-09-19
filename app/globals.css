@@ -10,6 +10,21 @@ body {
   color: #333333;
 }
 
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+
+.container {
+  padding: 25px 35px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 10px;
+}
+
 /* Style the header and navigation menu */
 header {
   background-color: #3498db;
@@ -92,7 +107,16 @@ a {
   background-color: #1e8449;
 }
 
-/* Style the hero section */
+/* Style the event section */
+
+.event {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  margin-top: 30px;
+}
+
 .event-card {
   width: 300px;
   border: 1px solid #ccc;
@@ -125,8 +149,7 @@ a {
   font-style: italic;
 }
 
-/* Image Style */
-.featured-event{
+.featured-event {
   display: flex;
   padding: 10px;
 }
@@ -135,4 +158,9 @@ a {
   max-width: 100%;
   height: auto;
   margin-top: 10px;
+}
+
+/* Style the About-us section */
+.about-us{
+  text-align: center;
 }

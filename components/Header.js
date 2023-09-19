@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Header = () => {
@@ -8,19 +9,19 @@ const Header = () => {
 
         <ul>
           <li>
-            <a href='/'>Home</a>
+            <Link href='/'>Home</Link>
           </li>
           <li>
-            <a href='/about'>About</a>
+            <Link href='/about'>About</Link>
+          </li>
+          {/* <li>
+            <Link href='/event'>Event</Link>
+          </li> */}
+          <li>
+            <Link href='/blog'>Blog</Link>
           </li>
           <li>
-            <a href='/event'>Event</a>
-          </li>
-          <li>
-            <a href='/blog'>Blog</a>
-          </li>
-          <li>
-            <a href='/contact'>Contact</a>
+            <Link href='/contact'>Contact</Link>
           </li>
         </ul>
         </nav>
