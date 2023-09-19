@@ -161,6 +161,21 @@ a {
 }
 
 /* Style the About-us section */
-.about-us{
+.about-us {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.about-card h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.about-card p {
+  font-size: 1rem;
+  margin: 10px 0;
 }
