@@ -2,7 +2,7 @@ import React from 'react'
 import FeaturedEvent from './FeaturedEvent'
 
 
-const Homepage = () => {
+const Hero = () => {
   return (
     <>
       <section id="home" className="hero">
@@ -13,9 +13,9 @@ const Homepage = () => {
         </div>
       </section>
 
-        <FeaturedEvent/>
+      
     </>
   )
 }
 
-export default Homepage
+export default Hero
