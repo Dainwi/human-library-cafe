@@ -191,3 +191,28 @@ a {
 }
 
 /* Style the blog section */
+
+.popular_posts {
+  margin: 3rem 0 0 0;
+}
+
+.popular_posts_content h3 {
+  color: #000;
+  text-decoration: none;
+}
+
+.popular_posts_content p {
+  color: #000;
+  text-decoration: none;
+}
+
+.popular_posts_container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+}
