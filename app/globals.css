@@ -59,7 +59,7 @@ a {
   color: #fff;
 }
 
-/* Style the hero section */
+/* Base Styles for the hero section */
 .hero {
   text-align: center;
   padding: 100px 0;
@@ -74,6 +74,8 @@ a {
   font-size: 36px;
   margin-bottom: 20px;
   z-index: 999;
+  line-height: 1.2;
+  /* Adjust line height */
 }
 
 .hero p {
@@ -102,6 +104,41 @@ a {
 
 .cta-button:hover {
   background-color: #1e8449;
+}
+
+/* Responsive Styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .hero {
+    padding: 80px 0;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+    /* Reduce font size for smaller screens */
+    margin-bottom: 15px;
+    line-height: 1.1;
+    /* Adjust line height for tighter spacing */
+  }
+
+  .hero p {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+
+  .hero-content {
+    padding: 25px 35px;
+    position: absolute;
+    top: 31%;
+    left: 0%;
+    transform: translate(0%, 0%);
+    border-radius: 10px;
+  }
+
+  .cta-button {
+    font-size: 16px;
+    padding: 8px 16px;
+    display: none;
+  }
 }
 
 /* Style the event section */
@@ -188,24 +225,18 @@ a {
 }
 
 /* Style the blog section */
-.blog-posts {
-  margin-top: 30px;
-}
-
-.blog-posts-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 20px;
-  gap: 20px;
-}
-
+/* Base Styles */
 .blog-posts {
   flex: 1;
   max-width: calc(33.33% - 20px);
   margin-bottom: 20px;
   transition: transform 0.2s ease-in-out;
   overflow: hidden;
+}
+
+.blog-posts-container {
+  display: flex;
+  gap: 20px;
 }
 
 .blog-posts-content {
@@ -235,6 +266,29 @@ a {
 
 .blog-posts:hover img {
   transform: scale(1.2);
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .blog-posts {
+    max-width: calc(50% - 20px);
+  }
+
+  .blog-posts-container {
+    display: block;
+    gap: 0px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .blog-posts {
+    max-width: 100%;
+  }
+
+  .blog-posts-container {
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
 }
 
 /* style footer */
@@ -292,4 +346,15 @@ a {
 .footer-bottom {
   margin-top: 20px;
   font-size: 14px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .about-us-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .nav {
+    flex-direction: column;
+  }
 }
