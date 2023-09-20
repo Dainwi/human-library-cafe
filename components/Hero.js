@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="hero-content">
           <h1>Welcome to the Human Library Cafe</h1>
           <p>Learn - Connect - Share</p>
-          <a href="/events" className="cta-button">Explore Events</a>
+          <a href="/event" className="cta-button">Explore Events</a>
         </div>
       </section>
 

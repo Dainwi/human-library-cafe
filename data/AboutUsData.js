@@ -2,15 +2,15 @@ const aboutData = {
   AboutData: [
     {
       title: 'The Concept',
-      content: ' The Human Library Cafe is a community of readers who share their experiences and thoughts with each other. '
+      content: ' The Human Library Cafe brings together a community of individuals who exchange their experiences and thoughts as avid readers. '
     },
     {
       title: 'Our Books',
-      content: 'All of our human books are volunteers with personal experience with their topic. The Human Library® is a place where difficult questions are expected, appreciated and answered.'
+      content: 'Our human books are volunteers with personal expertise.The Human Library welcomes and answers tough questions.'
     },
     {
       title: 'Our Mission',
-      content: 'Our mission is to create a safe space for dialogue where topics are discussed openly between our human books and their readers. '
+      content: 'Our objective is to establish a secure environment for open dialogue, where our human books engage in discussions with their readers.'
     }
   ],
 
