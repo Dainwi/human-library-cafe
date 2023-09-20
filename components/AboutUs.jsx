@@ -1,9 +1,9 @@
 import React from 'react';
-import aboutData from '@/data/AboutUsData';
+import aboutData from '../data/AboutUsData';
 
 export default function AboutUs() {
   return (
-    <section className='about-us'>
+    <section className='about-us container'>
       <h1>Welcome to the Human Library Cafe</h1>
       <div className="about-us-wrapper">
         {aboutData.AboutData.map((item, index) => (

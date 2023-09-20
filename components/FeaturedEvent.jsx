@@ -1,11 +1,11 @@
 import React from 'react'
-import eventData from '@/data/Eventdata';
+import eventData from '../data/Eventdata';
 
 export default function FeaturedEvent() {
   return (
     <>
       {/* <h2 style={{margin: '20px'}}>Featured Events</h2> */}
-      <div className="event">
+      <section id='event' className="event container">
         {eventData.featuredEvents.map((event, index) => (
           // Render an event card for each featured event
           <div className="event-card" key={index}>
@@ -21,6 +21,6 @@ export default function FeaturedEvent() {
             </div>
           </div>
         ))}
-      </div>
+      </section>
     </>);
 }

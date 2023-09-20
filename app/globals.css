@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -17,12 +18,8 @@ h1 {
 }
 
 .container {
-  padding: 25px 35px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #fff;
-  border-radius: 10px;
+  max-width: 1200px;
+  margin: auto;
 }
 
 /* Style the header and navigation menu */
@@ -191,28 +188,108 @@ a {
 }
 
 /* Style the blog section */
-
-.popular_posts {
-  margin: 3rem 0 0 0;
+.blog-posts {
+  margin-top: 30px;
 }
 
-.popular_posts_content h3 {
-  color: #000;
-  text-decoration: none;
-}
-
-.popular_posts_content p {
-  color: #000;
-  text-decoration: none;
-}
-
-.popular_posts_container {
-  margin-top: 1rem;
+.blog-posts-container {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  /* flex-wrap: wrap; */
-  width: 300px;
-  margin: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.blog-posts {
+  flex: 1;
+  max-width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  transition: transform 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+.blog-posts-content {
   padding: 20px;
+}
+
+.blog-posts h3 {
+  color: #333333;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.blog-posts p {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.blog-image-container {
+  overflow: hidden;
+}
+
+.blog-posts img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.2s ease-in-out;
+}
+
+.blog-posts:hover img {
+  transform: scale(1.2);
+}
+
+/* style footer */
+/* CSS for the Footer Component */
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin: 8px 0;
+}
+
+.footer-links ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-social ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-social ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
 }
