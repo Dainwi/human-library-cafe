@@ -2,15 +2,15 @@ const aboutData = {
   AboutData: [
     {
       title: 'The Concept',
-      content: ' The Human Library Cafe brings together a community of individuals who exchange their experiences and thoughts as avid readers. '
+      content: ' The Human Library Cafe is guided by the principle of "Learn, Connect & Share." It provides a unique space where you can "borrow" a human book, sharing your own stories while listening to others experiences. Simultaneously, it offers the opportunity to meet and connect with like-minded individuals, fostering a sense of community and facilitating a rich exchange of knowledge and perspectives.'
     },
     {
       title: 'Our Books',
-      content: 'Our human books are volunteers with personal expertise.The Human Library welcomes and answers tough questions.'
+      content: "Our 'books' are people who visit our cafe, believing in the power of sharing and helping one another. We embrace the idea that each of us possesses a unique story, and there's much to learn from the experiences of others."
     },
     {
-      title: 'Our Mission',
-      content: 'Our objective is to establish a secure environment for open dialogue, where our human books engage in discussions with their readers.'
+      title: 'Our Objective',
+      content: 'Our objective is to establish a safe and open environment for meaningful dialogue, enabling each individual to participate in discussions, openly share their stories, and pose thought-provoking questions.'
     }
   ],
 
